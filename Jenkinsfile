@@ -7,7 +7,6 @@ pipeline{
                 echo "========updating odoo modules========"
 
                 sh '''
-                    su - kkiarie
 
                     cd /opt/odoo14
 
