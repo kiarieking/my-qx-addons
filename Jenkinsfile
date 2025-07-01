@@ -13,6 +13,8 @@ pipeline{
 
                     cd /opt/odoo14
 
+                    sudo -u kkiarie ./odoo-bin -u all -d kiariedb212 --stop-after-init
+
                     echo "im here!"
 
                     '''
