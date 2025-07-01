@@ -48,7 +48,7 @@ pipeline{
         failure{
             office365ConnectorSend(
                 status: "Build status",
-                webhookUrl: "{MSTEAMS_HOOK}",
+                webhookUrl: "${MSTEAMS_HOOK}",
                 message: "Build Failed",
                 color: "#EE4B2B",
             )
