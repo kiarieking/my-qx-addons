@@ -11,7 +11,7 @@ pipeline{
 
                     cd /opt/odoo14
 
-                    ./odoo-bin -u all -d kiariedb212 --stop-after-init
+                    sudo -u kkiarie ./odoo-bin -u all -d kiariedb212 --stop-after-init
 
                     '''
             }
