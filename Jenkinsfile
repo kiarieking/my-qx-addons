@@ -7,6 +7,8 @@ pipeline{
                 echo "========updating odoo modules========"
 
                 sh '''
+                    su - kkiarie
+
                     cd /opt/odoo14
 
                     ./odoo-bin -u all -d kiariedb212 --stop-after-init
