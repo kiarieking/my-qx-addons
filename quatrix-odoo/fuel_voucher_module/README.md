@@ -6,8 +6,8 @@ This module is used to allocate fuel to sub contractors/carriers and manage the 
 
 ## Features
 
-- Create a fuel order
-- Edit a fuel order
+- Create a fuel order:  Register new fuel requests tied to specific vehicles or carriers.
+- Edit a fuel order: Update quantities, dates, or assignments before confirmation.
 - Sync an open fuel order with an existing dispatch order which is within a fillind datae timeframe.
 - Create fuel invoices upon confirmation
 - After a fuel invoice has been created, the process cannot be reversed.
